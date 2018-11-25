@@ -1,0 +1,20 @@
+-- BEGIN LICENSE v1.0 67C8FF40 --
+name:
+notes: Gracenote Open Developer Program
+start_date: 0000-00-00
+client_id: 1376969105
+musicid_file: enabled
+musicid_text: enabled
+musicid_stream: enabled
+musicid_cd: enabled
+playlist: enabled
+videoid: enabled
+video_explore: enabled
+local_images: enabled
+local_mood: enabled
+videoid_explore: enabled
+acr: enabled
+epg: enabled
+-- SIGNATURE 67C8FF40 --
+lAADAgAe4Q5kR6bAdU6SMMVNQ5fdb3hNGUqcIolXpAxkE6NuAB4Lk/r4DFWq9Nw5DwKjT944dzjQsJsb05gqAJujn7s=
+-- END LICENSE 67C8FF40 --

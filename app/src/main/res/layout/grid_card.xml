@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/selected_bg"
+    android:layout_height="110dp">
+
+    <ImageView
+        android:id="@+id/grid_item_iv"
+        android:layout_width="match_parent"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/grid_item_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="sdfsdf"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

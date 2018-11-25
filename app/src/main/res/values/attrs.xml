@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingCardView">
+        <attr name="loading_background_color" format="reference|color" />
+        <attr name="loading_progress_color" format="reference|color" />
+        <attr name="loading_theme" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TagCardView">
+        <attr name="tag_background_color" format="reference|color" />
+        <attr name="tag_text_color" format="reference|color" />
+        <attr name="tag_icon" format="reference|integer" />
+        <attr name="tag_theme" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="IconCardView">
+        <attr name="icon_title_background_color" format="reference|color" />
+        <attr name="icon_detail_background_color" format="reference|color" />
+        <attr name="icon_title_text_color" format="reference|color" />
+        <attr name="icon_detail_text_color" format="reference|color" />
+        <attr name="icon_header_icon" format="reference|integer" />
+        <attr name="icon_theme" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LiveCardView">
+        <attr name="live_background_color" format="reference|color" />
+        <attr name="live_text_color" format="reference|color" />
+        <attr name="live_theme" format="reference|integer" />
+    </declare-styleable>
+</resources>

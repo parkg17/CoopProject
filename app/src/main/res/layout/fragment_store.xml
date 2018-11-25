@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:focusable="true"
+                android:id="@+id/imageview_store"
+                android:layout_width="match_parent"
+                android:src="@drawable/banner"
+                android:scaleType="centerCrop"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/tv_storename"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="#fff"
+                android:text="ㅈㄴ"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="#fff"
+            android:maxLines="5"
+            android:text="ㅈㄴ"
+            android:textColor="#000" />
+
+        <skku.alticastvux.util.ExpandableGridView
+            android:layout_marginTop="10dp"
+            android:id="@+id/gridview_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="5dp"
+            android:numColumns="1"
+            android:smoothScrollbar="true"
+            android:verticalSpacing="5dp">
+
+        </skku.alticastvux.util.ExpandableGridView>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="45dp"
+            android:background="@drawable/selected_bg"
+            android:text="주문하기"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:focusable="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </View>
+    </LinearLayout>
+</ScrollView>
